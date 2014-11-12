@@ -20,11 +20,19 @@ Framer.Defaults.Animation =
     tension: 500
     friction: 35
     velocity: 10
-  
+    
+#white layer
 Cover = deriveLayers.Cover
+buggyHome = deriveLayers.Home
+buggyHome.opacity=0
 Home = HomeLayers.Home
 
+#Cover.addSubLayer(whiteLayer)
+Cover.bringToFront()
+#whiteLayer.placeBehind(Cover)
+
 Cover.opacity = 1
+Cover.backgroundColor="white"
 
 Home.opacity = 1
 Home.width = 640
@@ -64,6 +72,11 @@ Cover.on Events.DragEnd, ->
 				x: -640
 			time: 0.2
 			curve: 'ease-out'
+# 		whiteLayer.animate
+# 			properties:
+# 				x: -640
+# 			time: 0.2
+# 			curve: 'ease-out'
 	else
     # Not dragged enough, move it back
 		Cover.animate

@@ -22,6 +22,8 @@ Framer.Defaults.Animation =
     velocity: 10
   
 Cover = deriveLayers.Cover
+buggyHome = deriveLayers.Home
+buggyHome.opacity=0
 Home = HomeLayers.Home
 
 Cover.opacity = 1
