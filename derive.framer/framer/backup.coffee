@@ -1,13 +1,17 @@
+# This imports all the layers for "Home" into homeLayers4
+homeLayers = Framer.Importer.load "imported/Home"
+
 # This imports all the layers for "test_derive" into test_deriveLayers2
-HomeLayers = Framer.Importer.load "imported/test_derive"
+# HomeLayers = Framer.Importer.load "imported/test_derive"
 
 # This imports all the layers for "derive" into deriveLayers1
 deriveLayers = Framer.Importer.load "imported/derive"
 
 
 #Make all the imported layers available on the root
-#for layerGroupName of deriveLayers
+#for layerGroupName of homeLayers
 	#print layerGroupName
+	#print layerGroupName.subLayers[0]
 #   window[layerGroupName] = deriveLayers[layerGroupName]
 # 
 # for layerGroupName of deriveLayers
@@ -25,7 +29,12 @@ Framer.Defaults.Animation =
 Cover = deriveLayers.Cover
 buggyHome = deriveLayers.Home
 buggyHome.opacity=0
-Home = HomeLayers.Home
+Home = homeLayers.Home
+
+# whiteLayer = new Layer
+# 	backgroundColor:"white"
+# 	x:0,y:0,width:640,height:1136
+#   
 
 #Cover.addSubLayer(whiteLayer)
 Cover.bringToFront()
@@ -34,13 +43,6 @@ Cover.bringToFront()
 Cover.opacity = 1
 Cover.backgroundColor="white"
 
-Home.opacity = 1
-Home.width = 640
-Home.height = 1136
-Home.x=0
-Home.y=0
-#Home.clip = true
-    
 # Cover only draggable horizontally
 Cover.draggable.enabled = true
 Cover.draggable.speedY = 0

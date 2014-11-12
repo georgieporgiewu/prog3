@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 1415778888.028047
+# 1415784685.833374
 CACHE:
 /_server/server.js
 ../.DS_Store
@@ -35,11 +35,23 @@ CACHE:
 ../images/Cover.png
 ../images/framer-icon.png
 ../imported/.DS_Store
-../imported/derive/.DS_Store
 ../imported/derive/images/Cover-C924AD6B-D7E5-45D3-9E3D-1C01902BE3E7.png
 ../imported/derive/images/Home-3A36AD71-84DF-4780-B6D0-D0688152057D.png
 ../imported/derive/layers.json
 ../imported/derive/layers.json.js
+../imported/Home/images/Button-068B014E-53EA-4A1A-9AD2-158ACBC91AB8.png
+../imported/Home/images/D1-D74BB460-068F-43BD-9043-3682CE1505A6.png
+../imported/Home/images/D2-88E072DE-9499-4927-8BC9-CD87D1F334B3.png
+../imported/Home/images/D3-37B475FF-54EA-4A2F-9093-58D7D3F62D6C.png
+../imported/Home/images/D4-888440A8-8421-4C1E-AD14-8676511FEA6B.png
+../imported/Home/images/D5-3708B6A8-31F8-4820-9A56-FA416F18F7BB.png
+../imported/Home/images/D6-EC90A73B-3D9C-40DD-AE8B-C373C8DCECFD.png
+../imported/Home/images/D7-37CF8835-9888-481D-AC6C-14F238BAD544.png
+../imported/Home/images/D8-8F03D130-1792-4031-AF68-93685A59FF9F.png
+../imported/Home/images/Home-BE140F85-D81F-4792-A96A-B7996AB34D46.png
+../imported/Home/layers.json
+../imported/Home/layers.json.js
+../imported/test_derive/.DS_Store
 ../imported/test_derive/images/Home-517909C0-6FF3-4BA3-AE9B-A26D05FD200B.png
 ../imported/test_derive/layers.json
 ../imported/test_derive/layers.json.js
