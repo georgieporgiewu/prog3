@@ -1,0 +1,52 @@
+[
+  {
+    "maskFrame" : null,
+    "id" : "C924AD6B-D7E5-45D3-9E3D-1C01902BE3E7",
+    "visible" : true,
+    "children" : [
+
+    ],
+    "image" : {
+      "path" : "images\/Cover-C924AD6B-D7E5-45D3-9E3D-1C01902BE3E7.png",
+      "frame" : {
+        "y" : 0,
+        "x" : 0,
+        "width" : 640,
+        "height" : 1136
+      }
+    },
+    "imageType" : "png",
+    "layerFrame" : {
+      "y" : 0,
+      "x" : 0,
+      "width" : 640,
+      "height" : 1136
+    },
+    "name" : "Cover"
+  },
+  {
+    "maskFrame" : null,
+    "id" : "3A36AD71-84DF-4780-B6D0-D0688152057D",
+    "visible" : false,
+    "children" : [
+
+    ],
+    "image" : {
+      "path" : "images\/Home-3A36AD71-84DF-4780-B6D0-D0688152057D.png",
+      "frame" : {
+        "y" : 0,
+        "x" : 0,
+        "width" : 640,
+        "height" : 1136
+      }
+    },
+    "imageType" : "png",
+    "layerFrame" : {
+      "y" : 0,
+      "x" : 0,
+      "width" : 640,
+      "height" : 1136
+    },
+    "name" : "Home"
+  }
+]
